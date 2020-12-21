@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="FIR_filter_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="FIR_filter_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="31580000001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="239"></NameColumnWidth>
+      <ValueColumnWidth column_width="117"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="30" />
+   <wvobject fp_name="/FIR_filter_tb/filter_in_data_log_force" type="array">
+      <obj_property name="ElementShortName">filter_in_data_log_force[0:3148][15:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_in_data_log_force[0:3148][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/clk_enable" type="logic">
+      <obj_property name="ElementShortName">clk_enable</obj_property>
+      <obj_property name="ObjectShortName">clk_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/filter_in" type="array">
+      <obj_property name="ElementShortName">filter_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_in[15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/filter_out" type="array">
+      <obj_property name="ElementShortName">filter_out[33:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_out[33:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/tb_enb" type="logic">
+      <obj_property name="ElementShortName">tb_enb</obj_property>
+      <obj_property name="ObjectShortName">tb_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/srcDone" type="logic">
+      <obj_property name="ElementShortName">srcDone</obj_property>
+      <obj_property name="ObjectShortName">srcDone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/snkDone" type="logic">
+      <obj_property name="ElementShortName">snkDone</obj_property>
+      <obj_property name="ObjectShortName">snkDone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/testFailure" type="logic">
+      <obj_property name="ElementShortName">testFailure</obj_property>
+      <obj_property name="ObjectShortName">testFailure</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/tbenb_dly" type="logic">
+      <obj_property name="ElementShortName">tbenb_dly</obj_property>
+      <obj_property name="ObjectShortName">tbenb_dly</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/rdEnb" type="logic">
+      <obj_property name="ElementShortName">rdEnb</obj_property>
+      <obj_property name="ObjectShortName">rdEnb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/filter_in_data_log_rdenb" type="logic">
+      <obj_property name="ElementShortName">filter_in_data_log_rdenb</obj_property>
+      <obj_property name="ObjectShortName">filter_in_data_log_rdenb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/filter_in_data_log_addr" type="array">
+      <obj_property name="ElementShortName">filter_in_data_log_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_in_data_log_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/filter_in_data_log_done" type="logic">
+      <obj_property name="ElementShortName">filter_in_data_log_done</obj_property>
+      <obj_property name="ObjectShortName">filter_in_data_log_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/filter_out_testFailure" type="logic">
+      <obj_property name="ElementShortName">filter_out_testFailure</obj_property>
+      <obj_property name="ObjectShortName">filter_out_testFailure</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/filter_out_errCnt" type="array">
+      <obj_property name="ElementShortName">filter_out_errCnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_out_errCnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/delayLine_out" type="logic">
+      <obj_property name="ElementShortName">delayLine_out</obj_property>
+      <obj_property name="ObjectShortName">delayLine_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/expected_ce_out" type="logic">
+      <obj_property name="ElementShortName">expected_ce_out</obj_property>
+      <obj_property name="ObjectShortName">expected_ce_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/int_delay_pipe" type="array">
+      <obj_property name="ElementShortName">int_delay_pipe[0:1]</obj_property>
+      <obj_property name="ObjectShortName">int_delay_pipe[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/filter_out_rdenb" type="logic">
+      <obj_property name="ElementShortName">filter_out_rdenb</obj_property>
+      <obj_property name="ObjectShortName">filter_out_rdenb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/filter_out_addr" type="array">
+      <obj_property name="ElementShortName">filter_out_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_out_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/filter_out_done" type="logic">
+      <obj_property name="ElementShortName">filter_out_done</obj_property>
+      <obj_property name="ObjectShortName">filter_out_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/filter_out_ref" type="array">
+      <obj_property name="ElementShortName">filter_out_ref[33:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_out_ref[33:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/check1_Done" type="logic">
+      <obj_property name="ElementShortName">check1_Done</obj_property>
+      <obj_property name="ObjectShortName">check1_Done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/clk_high" type="array">
+      <obj_property name="ElementShortName">clk_high[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_high[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/clk_low" type="array">
+      <obj_property name="ElementShortName">clk_low[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_low[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/clk_period" type="array">
+      <obj_property name="ElementShortName">clk_period[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_period[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/clk_hold" type="array">
+      <obj_property name="ElementShortName">clk_hold[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_hold[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIR_filter_tb/MAX_ERROR_COUNT" type="array">
+      <obj_property name="ElementShortName">MAX_ERROR_COUNT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX_ERROR_COUNT[31:0]</obj_property>
+   </wvobject>
+</wave_config>
