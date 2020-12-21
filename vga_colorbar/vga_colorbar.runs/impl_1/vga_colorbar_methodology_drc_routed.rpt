@@ -1,0 +1,40 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Dec 21 19:35:00 2020
+| Host         : DESKTOP-IDAELR9 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file vga_colorbar_methodology_drc_routed.rpt -pb vga_colorbar_methodology_drc_routed.pb -rpx vga_colorbar_methodology_drc_routed.rpx
+| Design       : vga_colorbar
+| Device       : xc7a35tcsg324-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 1
++---------+----------+------------------------------+------------+
+| Rule    | Severity | Description                  | Violations |
++---------+----------+------------------------------+------------+
+| LUTAR-1 | Warning  | LUT drives async reset alert | 1          |
++---------+----------+------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell u_vga_driver/pixel_data[11]_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) u_vga_display/pixel_data_reg[11]/CLR, u_vga_display/pixel_data_reg[3]/CLR, u_vga_display/pixel_data_reg[7]/CLR, u_vga_driver/cnt_h_reg[0]/CLR, u_vga_driver/cnt_h_reg[1]/CLR, u_vga_driver/cnt_h_reg[2]/CLR, u_vga_driver/cnt_h_reg[3]/CLR, u_vga_driver/cnt_h_reg[4]/CLR, u_vga_driver/cnt_h_reg[5]/CLR, u_vga_driver/cnt_h_reg[6]/CLR, u_vga_driver/cnt_h_reg[7]/CLR, u_vga_driver/cnt_h_reg[8]/CLR, u_vga_driver/cnt_h_reg[9]/CLR, u_vga_driver/cnt_v_reg[0]/CLR, u_vga_driver/cnt_v_reg[1]/CLR (the first 15 of 23 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+

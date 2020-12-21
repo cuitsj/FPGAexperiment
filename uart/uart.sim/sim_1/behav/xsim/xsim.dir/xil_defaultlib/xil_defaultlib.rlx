@@ -1,0 +1,9 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+F:/FPGAexperiment1/uart/uart.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+F:/FPGAexperiment1/uart/uart.srcs/sim_1/new/sim_uart_tx.v,1608549076,verilog,,,,sim_uart_tx,,,,,,,,
+F:/FPGAexperiment1/uart/uart.srcs/sources_1/new/uart_rx.v,1608549036,verilog,,F:/FPGAexperiment1/uart/uart.srcs/sources_1/new/uart_tx.v,,uart_rx,,,,,,,,
+F:/FPGAexperiment1/uart/uart.srcs/sources_1/new/uart_top.v,1608549019,verilog,,,,uart_top,,,,,,,,
+F:/FPGAexperiment1/uart/uart.srcs/sources_1/new/uart_tx.v,1608549062,verilog,,F:/FPGAexperiment1/uart/uart.srcs/sim_1/new/sim_uart_tx.v,,uart_tx,,,,,,,,
